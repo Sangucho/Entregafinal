@@ -1,0 +1,77 @@
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.text-muted {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    width: 100%;
+    background: #f2ebdd; 
+    padding: 1px 20px;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  .header-link {
+    text-decoration: none;
+    color: #555; /* Color más oscuro para el texto */
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: transparent; 
+    border: none;
+    transition: color 0.3s;
+  }
+  
+  .header-link:hover {
+    color: #000; /* Color cuando el mouse pasa sobre el enlace */
+  }
+
+/* Estilos para el navbar */
+.navbar-nav .dropdown-menu {
+    display: none;  /* Oculta el menú desplegable inicialmente */
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block; /* Muestra el menú desplegable al pasar el mouse */
+}
+
+/* Opcional: Ajustes para mejorar la apariencia del menú desplegable */
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    background-color: #343a40; /* Ajusta al color de fondo deseado */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Añade sombra para destacar */
+    border: none;
+    top: 100%;
+    left: 0;
+    z-index: 1000; /* Asegura que el menú esté sobre otros elementos */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: white; /* Ajusta el color del texto */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #50575d; /* Color cuando se pasa el mouse sobre ítems */
+}
+
+ 

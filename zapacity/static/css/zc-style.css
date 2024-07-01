@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    color: #333;
+}
+p {
+    margin: 10px 0;
+}
+header {
+    width: 100%;
+    background: #f2ebdd; 
+    padding: 1px 20px;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  .header-link {
+    text-decoration: none;
+    color: #555; 
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: transparent; 
+    border: none;
+    transition: color 0.3s;
+  }
+  
+  .header-link:hover {
+    color: #000; 
+  }
+  
+  /* Estilos para el navbar */
+  .navbar-nav .dropdown-menu {
+    display: none; 
+  }
+  
+  .navbar-nav .dropdown:hover .dropdown-menu {
+    display: block; 
+  }
+  
+  /* Ajustes para mejorar la apariencia del menú desplegable */
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+    background-color: #343a40; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    border: none;
+    top: 100%;
+    left: 0;
+    z-index: 1000; 
+  }
+  
+  .navbar-nav .dropdown-menu .dropdown-item {
+    color: white; 
+  }
+  
+  .navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #50575d; 
+  }
+  
+  .navbar .navbar-collapse .navbar-nav .nav-link .form-control {
+    background-color: white; 
+    color: rgb(0, 0, 0); 
+  }
+  @media (max-width: 768px) {
+    .custom-carousel {
+      max-width: 400px;
+    }
+  
+    .navbar-nav .dropdown:hover .dropdown-menu {
+      display: none;
+    }
+  
+    .navbar-nav .dropdown-menu {
+      display: block;
+      position: static;
+      box-shadow: none;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    header nav {
+      text-align: center;
+    }
+  
+    .header-link {
+      display: block;
+      padding: 10px 0;
+    }
+}
+
+#map {
+    height: 400px;  
+    width: 80%;    
+    margin: 0 auto; 
+    border: 2px solid #000; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
